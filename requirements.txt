@@ -2,9 +2,13 @@ Flask==2.3.0
 Flask-SQLAlchemy==3.1.1 
 Flask-Login==0.6.2
 Werkzeug==2.3.0
+pymysql==1.1.0
+cryptography==41.0.7
 
 #FLASK + SQL:
 #https://flask-sqlalchemy.readthedocs.io/en/stable/
 ##https://www.sqlalchemy.org/
 
 #FLASK LOGIN: https://flask-login.readthedocs.io/en/latest/
+
+#bcrypt encriptar senhas do BD:https://github.com/pyca/bcrypt
